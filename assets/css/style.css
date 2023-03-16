@@ -1,0 +1,59 @@
+*{
+    background-color: rgb(234, 185, 150);
+}
+.list-item{
+    display: inline;
+    margin: 3rem;
+}
+.list{
+    text-decoration: none;
+}
+.anchor{
+    text-decoration: none;
+    color: #000;
+}
+.anchor:hover{
+    color: #fa0404;
+}
+.image{
+    position: absolute;
+    left: 0;
+}
+.biodata{
+    position: absolute;
+    right: 0;
+}
+.smith{
+    width: 40rem;
+}
+#about{
+    background-color: rgb(165, 214, 197);
+}
+.media{
+    display: inline;
+}
+.container>div{
+    width: 250px;
+    height: 150px;
+    border: 1px solid;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.card{
+    width:20%;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-bottom:50px;
+}
+.card-header{
+    text-align: center;
+    padding:50px 10px;
+    background: #fff;
+}
+.card-body{
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 18px;
+}
